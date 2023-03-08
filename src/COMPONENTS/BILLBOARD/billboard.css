@@ -1,0 +1,50 @@
+.bill-container {
+    width: 100%;
+}
+
+.bill-background {
+    width: 100%;
+    background-image: url("../img/20230210_164614.jpg");
+    background-position:center ;
+    background-size: cover;
+    height: 50em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.bill-info {
+    text-align: center;
+    margin-bottom: 3em;
+    background-color: rgba(255, 255, 255, 0.722);
+    border-top: 5px solid rgb(64,187,192);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bill-info p {
+     margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.bill-info h2 {
+    background-color: rgb(64,187,192);
+    width: 10em;
+    border-radius: 10px;
+    color:rgb(255,255,251) ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: .3em .6em;
+    font-weight: 300;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.bill-info h2:hover {
+    background-color: aliceblue;
+    color: rgb(64,187,192);
+    transition: .2s ease-in;
+}
+
+
+
